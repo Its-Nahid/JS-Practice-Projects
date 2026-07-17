@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Result Portal</h1>
+        <p>Welcome to the Result Portal!</p>
+      </div>
+
+      <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" placeholder="Enter Name" />
+
+        <label for="StudentMarks">Student Marks:</label>
+        <input
+          type="text"
+          id="StudentMarks"
+          placeholder="Enter Student Marks"
+        />
+      </div>
+
+      <div class="btn">
+        <button type="button">Check Result</button>
+      </div>
+
+      <div class="result">
+        <div class="header">
+          <h2>Result</h2>
+          <p>Check your result here!</p>
+        </div>
+
+        <div class="results">
+          <div class="result-item">
+            <span class="label">Name:</span>
+            <span id="resultName">Not Available</span>
+          </div>
+
+          <div class="result-item">
+            <span class="label">Marks:</span>
+            <span id="resultMarks">Not Available</span>
+          </div>
+
+          <div class="result-item">
+            <span class="label">Grade:</span>
+            <span id="resultGrade">Not Available</span>
+          </div>
+
+          <div class="result-item">
+            <span class="label">Status:</span>
+            <span id="resultStatus">Not Available</span>
+          </div>
+
+          <div class="result-item">
+            <span class="label">Scholarship:</span>
+            <span id="resultScholarship">Not Available</span>
+          </div>
+
+          <div class="result-item">
+            <span class="label">Remarks:</span>
+            <span id="resultRemarks">Not Available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
